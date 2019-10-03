@@ -20,8 +20,8 @@
         <h1>*ngFor</h1>
         <hr>
         <ul class="list-group" style="width:100%;">
-            <li *ngFor="let personaje of personajes" class="list-group-item">
-                {{personaje}}
+            <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">
+                {{i+1}} - {{personaje}}
             </li>
         </ul>
     </div>

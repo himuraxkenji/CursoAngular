@@ -55,4 +55,14 @@ __Parametros opcionales__: Son aquellos que pueden ser enviados a la funcion, pe
 ## Funciones de Flecha
 
  Cuando se ejecuta una setTimeout dentro de un objeto, el this apunta al objeto global que es windows. Las funciones de flecha evita que el this se afecte cuando se ejecute dentro de otra funcion. Tienen muchas caracteristicas pero esta son las que usaremos en este curso. 
- 
+
+## Destructuracion de Objetos y Arreglos
+
+
+La destructuracion de objeto permite la extraccion de las propiedades de un objeto mediante el nombre de las propiedades. De forma rapida podemos extraer las propiedaes de un objeto.
+
+La destructuracion de arreglos se realiza de forma secuancial. Se emplea en vez de las { } el  [ ]. 
+
+
+## Promesas
+Nos da la posibilidad de ejecutar una tarea cuando una actividad asincona es terminada. 

@@ -38,3 +38,9 @@ Permite crear codigo limpio y facil de entender que luego se traducira a codigo 
 3. boolean.
 4. objects (Date).
 5. any
+
+## Template Literal
+Es un tipo especial de string el cual se define utilizando el backtick `` y para colocar variable utilizamos 
+```typescript
+`Hola ${codigo js}`  
+```

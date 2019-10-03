@@ -44,3 +44,10 @@ Es un tipo especial de string el cual se define utilizando el backtick `` y para
 ```typescript
 `Hola ${codigo js}`  
 ```
+## Funciones Parametros opcionales, obligatorios y por defecto
+
+__Parametros Obligatorios__: Algo que la funcion necesita para trabajar. Si no se envia la funcion no deberia trabajar.
+
+__Parametro por defecto__: Es aquel que podemos o no enviar y tiene un valor por defecto en la funcion. Se utiliza el simbolo = y luego el valor por defecto
+
+__Parametros opcionales__: Son aquellos que pueden ser enviados a la funcion, pero si no se envian tiene valor por defecto undefine. Se utiliza el simbolo ?. Por ley no se puede poner el primer parametro como opcional. 

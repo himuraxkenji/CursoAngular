@@ -62,6 +62,23 @@ Esto iniciara la aplicacion en localhost:4200. Si queremos cambiar el puerto esc
 $ ng serve -p numeroPuerto
 ```
 
+Si deseamos crear un nuevo componente utilizamos el comando 
+```bash
+$ ng generate component carpeta/nombreComponente
+```
+o tambien:
+
+```bash
+$ ng g c carpeta/nombreComponente
+```
+
+Tambien se puede especificar que no queremos generar, ya que por defecto genera el archivo ts, html, css y el de pruebas.
+
+```bash
+$ ng g c carpeta/nombreComponente skipTests
+```
+
+
 # Archivos y carpetas del proyecto
 
 - __e2e__: Carpeta dedicada al manejo de pruebas extremo a extremo. Se configura de forma automatica.
@@ -83,3 +100,17 @@ $ ng serve -p numeroPuerto
 - __tsconfig.json__: Le indica a typescript como trabajar.
 - __tslint.json__: Archivo que tiene las reglas de trabajo con typescrip.
 
+## Bootstrap
+
+Existen 3 formas de integrar bootstrap a nuestra aplicacion angular.
+
+1. Mediante el CDN: Lo que hacemos es pegar en el index.html el CDN de bootstrap. 
+
+2. Mediante la descarga del bootstrap.
+
+3. Mediante npm
+
+
+## App Module
+Es un lugar donde le indicamos a angular que componentes tiene. 
+- __Declarations__: Indicamos los componentes que podemos utilizar.

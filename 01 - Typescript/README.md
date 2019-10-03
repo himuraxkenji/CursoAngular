@@ -1,17 +1,18 @@
 # TypeScript
 
 Compilar typescript
-´bash
+```bash
 $ tsc file.ts -w
-´
+```
+
 Poner en modo observador archivo en typescript
-´bash
+```bash
 $ tsc file.ts -w
-´
+```
 Iniciar proyecto en typescript
-´bash
+```bash
 $ tsc init
-´
+```
 
 ### Variables 
 Se declaran utilizando let y const.
@@ -21,5 +22,8 @@ Const define constantes, se definen con mayusculas y se definen al momento de cr
 
 ## Falantes de typescript
 
-*. Tipos de variables
-*. 
+- Tipos de variables
+- Errores en tiempo de escritura
+- Auto completacion dependiendo de la variable
+- Metodo estatico de programación
+- Clases y modulos(antes de ES6)

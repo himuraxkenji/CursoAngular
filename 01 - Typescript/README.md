@@ -65,4 +65,8 @@ La destructuracion de arreglos se realiza de forma secuancial. Se emplea en vez 
 
 
 ## Promesas
-Nos da la posibilidad de ejecutar una tarea cuando una actividad asincona es terminada. 
+Nos da la posibilidad de ejecutar una tarea cuando una actividad asincona es terminada. La promesa recibe una funcion que tiene un resolve es funcion a utilizar si la promesa se resuelve bien y reject funcion si se rechaza la promesa.
+
+
+## Interaces 
+

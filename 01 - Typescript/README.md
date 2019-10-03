@@ -84,3 +84,7 @@ Para darle un estado inicial a una propiedad podemos emplear el construtor y a l
 
 Permite segmentar nuestro codigo en varios archivos que son mas faciles de mantener. Y importar los archivos que necesito para mi programa. Tambien permite que un archivo unico sea el que dispare los requerimientos para no cargar todos los modulos que no se necesiten.
 Permiten cargar archivos que estan segmentado en todo el programa.
+
+
+## Decoradores 
+Es una funcion que envia como parametro el constructor de una clase.

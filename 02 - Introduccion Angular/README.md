@@ -36,6 +36,12 @@ export class AppComponent{
 ```
 
 ## Angular Cli
+Es una interfaz de linea de comando que nos permite crear cosas de forma automatica.
+Instalar Angular Cli 
+
+```bash
+$ npm install -g @angular/cli
+```
 
 Para crear nuevo proyecto: 
 
@@ -46,5 +52,34 @@ $ ng new miApp
 Nos preguntara si deseamos añadir el routing  y seleccionamos "y". Aunque esto puede variar dependiendo de lo que nosotros queramos. Pero la mayor parte del tiempo pondremos que si.
 Y luego preguntara el formato de estilo, lo cal seleccionaremos css (el cual viene por defecto), presionaremos enter y se creara nuestra aplicacion.
 
+Para correr la aplicacion angular nos posicionamos dentro de la carpeta que contiene la aplicacion y ejecutamos el siguiente comando:
 
+```bash
+$ ng serve
+```
+Esto iniciara la aplicacion en localhost:4200. Si queremos cambiar el puerto escribimos:
+```bash
+$ ng serve -p numeroPuerto
+```
+
+# Archivos y carpetas del proyecto
+
+- __e2e__: Carpeta dedicada al manejo de pruebas extremo a extremo. Se configura de forma automatica.
+- __node_modules__: Carpeta donde se instalan los paquetes de node como el live reload server, etc. Esta carpeta no se sube al servidor de produccion o repositorio.
+- __src__: Carpeta donde se aloja aplicacion angular. Subcarpetas:
+    - __app__: Tenemos nuestra aplicacion angular. App component es el primer componente que carga nuestra aplicacion.
+    - __asserts__: Por lo general se colocan recursos estaticos como imagenes, etc.
+    - __environments__: Variables de ambientes del curso.
+    - __browserslist__:Es usado para el autoprefixer.
+    - __karma.conf.js__: Archivo de configuracion de pruebas.
+    - __main.ts__: Configura el ambiente para una palicacion web.
+    - __index.html__: Es una pagina web comun y corriente que la referencia al app-root
+
+- __.editorconfig__: Archivo con configuraciones del editor.
+- __.gitignore__: Archivo que indica archivos y carpetas que no queremos subir a nuestro repositorio.
+- __angular.json__: Este se modifica rara vez. Le dice a nuestra aplicacion como funciona y que usa.
+- __package-lock.json__: Indica como se crea el package.json
+- __package.json__: Este archivo se va creando de forma automatica. Indica que dependencias utiliza nuestra aplicacion. 
+- __tsconfig.json__: Le indica a typescript como trabajar.
+- __tslint.json__: Archivo que tiene las reglas de trabajo con typescrip.
 

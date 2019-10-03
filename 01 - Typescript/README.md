@@ -51,3 +51,8 @@ __Parametros Obligatorios__: Algo que la funcion necesita para trabajar. Si no s
 __Parametro por defecto__: Es aquel que podemos o no enviar y tiene un valor por defecto en la funcion. Se utiliza el simbolo = y luego el valor por defecto
 
 __Parametros opcionales__: Son aquellos que pueden ser enviados a la funcion, pero si no se envian tiene valor por defecto undefine. Se utiliza el simbolo ?. Por ley no se puede poner el primer parametro como opcional. 
+
+## Funciones de Flecha
+
+ Cuando se ejecuta una setTimeout dentro de un objeto, el this apunta al objeto global que es windows. Las funciones de flecha evita que el this se afecte cuando se ejecute dentro de otra funcion. Tienen muchas caracteristicas pero esta son las que usaremos en este curso. 
+ 

@@ -88,3 +88,4 @@ Permiten cargar archivos que estan segmentado en todo el programa.
 
 ## Decoradores 
 Es una funcion que envia como parametro el constructor de una clase.
+En el tsconfig.json añadir "experimentalDecorators":true

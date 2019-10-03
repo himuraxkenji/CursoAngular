@@ -70,3 +70,4 @@ Nos da la posibilidad de ejecutar una tarea cuando una actividad asincona es ter
 
 ## Interaces 
 
+Permite especificar caracteristicas para objetos para que a la hora de escribir codigo se puedan detectar los errores en funciones y partes del programa que requieran el uso de un objeto.

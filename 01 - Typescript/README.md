@@ -79,3 +79,8 @@ Para declarar una clase se emplea la palabra reservada class seguida del nombre 
 Los constructores son funciones que son ejecutadas cuando se crean una nueva instancia del objeto. Se declara utilizando la palabra reservada constructor.
 Para darle un estado inicial a una propiedad podemos emplear el construtor y a la hora de crear el objeto pasarlo por parametro. Y en el constructor asignale a la propiedad del objeto el valor obtenido por el parametro de la funcion con la palabra reservada this.
 
+
+## Modulos
+
+Permite segmentar nuestro codigo en varios archivos que son mas faciles de mantener. Y importar los archivos que necesito para mi programa. Tambien permite que un archivo unico sea el que dispare los requerimientos para no cargar todos los modulos que no se necesiten.
+Permiten cargar archivos que estan segmentado en todo el programa.

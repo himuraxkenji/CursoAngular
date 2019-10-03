@@ -71,3 +71,11 @@ Nos da la posibilidad de ejecutar una tarea cuando una actividad asincona es ter
 ## Interaces 
 
 Permite especificar caracteristicas para objetos para que a la hora de escribir codigo se puedan detectar los errores en funciones y partes del programa que requieran el uso de un objeto.
+
+## Clases
+
+Para declarar una clase se emplea la palabra reservada class seguida del nombre de la clase en formato capitalize. Y para poder crear un objeto en base a la clase creada utilizaremos la palabra reservada new.
+
+Los constructores son funciones que son ejecutadas cuando se crean una nueva instancia del objeto. Se declara utilizando la palabra reservada constructor.
+Para darle un estado inicial a una propiedad podemos emplear el construtor y a la hora de crear el objeto pasarlo por parametro. Y en el constructor asignale a la propiedad del objeto el valor obtenido por el parametro de la funcion con la palabra reservada this.
+

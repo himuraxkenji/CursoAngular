@@ -63,3 +63,17 @@ Permite asignar la clase que se necesita cuando el elemento esta activo.
 Lo poderoso es que no hay relacion directa enre el routerLink y el routerLinkActive
 
 routerLinkActive="active"
+
+
+## Servicios
+
+Ahora como emplearemos datos, deberiamos alojarla en services que se encarga de manejar la informacion de nuestra aplicacion. Sus caracteristicas son:
+
+- Brindar informacion a quien lo necesite.
+- Realizar peticiones CRUD(create, read, update, delete)
+- Mantener la data de forma persistente.
+- Servir como recurso re-utilizable para nuestra aplicacion.
+
+Para crearlo se emplea el decorador @Injectable()
+Y para usarlo se debe añadir en el app.module.ts en la parte de provider el service(importarlo en la parte superior)
+

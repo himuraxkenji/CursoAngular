@@ -14,3 +14,6 @@ Si se le aplica un pipe de uppercase:
  {{ texto | uppercase }}
 ```
 El resultado sera "HOLA MUNDO".
+
+
+## Tipos de pipe

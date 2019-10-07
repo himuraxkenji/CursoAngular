@@ -3,6 +3,12 @@ import { NgModule } from '@angular/core';
 
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
+
+// Module
+import { HttpClientModule } from '@angular/common/http';
+
+
+// Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
@@ -19,7 +25,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

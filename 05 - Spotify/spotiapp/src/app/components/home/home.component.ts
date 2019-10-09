@@ -9,14 +9,24 @@ import { SpotifyService } from '../../services/spotify.service';
 export class HomeComponent implements OnInit {
   
   nuevasCanciones: any[] = [];
-
+  loading:boolean;
+  error:boolean ; 
+  msgError:string ="";
   constructor(private spotify:SpotifyService) {
-    
-    this.spotify.getNewReleases()
-    .subscribe( (data:any) => {
-      this.nuevasCanciones = data;
-      console.log(data);
+      
+    this.loading = true;
+    this.error = false;
 
+    this.spotify.getNewReleases()
+    .subscribe( (resp:any) => {
+      this.nuevasCanciones = resp;
+      this.loading = false;
+    }, (error) =>{
+      this.loading = false;
+      this.error = true;
+      console.log(error);
+      console.log(error);
+      this.msgError = error.error.error.message;
     });;
 
    }

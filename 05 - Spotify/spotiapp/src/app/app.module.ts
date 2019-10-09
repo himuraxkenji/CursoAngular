@@ -4,6 +4,10 @@ import { NgModule } from '@angular/core';
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
 
+// Services
+import { SpotifyService } from './services/spotify.service';
+ 
+
 // Module
 import { HttpClientModule } from '@angular/common/http';
 
@@ -25,10 +29,10 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-    HttpClientModule
   ],
-  providers: [],
+  providers: [SpotifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

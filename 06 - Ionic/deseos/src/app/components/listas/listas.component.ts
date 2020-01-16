@@ -22,8 +22,8 @@ export class ListasComponent implements OnInit {
 
   ngOnInit() {}
 
-  listaSeleccionada( lista: Lista ){
-    let idLista = lista.id;
+  listaSeleccionada( lista: Lista ) {
+    const idLista = lista.id;
 
     if ( this.terminada ) {
       this.router.navigateByUrl(`/tabs/tab2/agregar/${idLista}`);
@@ -33,11 +33,11 @@ export class ListasComponent implements OnInit {
 
   }
 
-  borrarLista(lista: Lista){
+  borrarLista(lista: Lista) {
     this.deseosService.borrarLista(lista);
   }
 
-  async modificarLista(lista: Lista){
+  async modificarLista(lista: Lista) {
 
     const alert = await this.alertCtrl.create({
       header: 'Editar lista',
@@ -53,7 +53,7 @@ export class ListasComponent implements OnInit {
         {
           text: 'Cancelar',
           role: 'cancel',
-          handler: () => { this.lista.closeSlidingItems();}
+          handler: () => { this.lista.closeSlidingItems(); }
         },
         {
           text: 'Actualizar',
